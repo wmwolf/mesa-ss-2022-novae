@@ -1,0 +1,427 @@
+.vcenter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rotate20 {
+  .rotate(20deg);
+}
+
+.my-cap {
+  margin: 3px;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+}
+
+#side-nav nav.sub-parts {
+  display: none;
+}
+
+#side-nav a.part-header.active + nav.sub-parts {
+  display: block;
+}
+
+.buffer {
+  height: 100px;
+}
+
+.buffer-small {
+  height: 50px;
+}
+
+.buffer-tiny {
+  height: 25px;
+}
+
+.contact-block {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  /*  margin-left: 5px;*/
+  margin-right: 5px;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 300;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 10rem;
+}
+
+#leiden-body,
+#mesa-ss-body,
+#binaries-body {
+  padding-bottom: 0;
+}
+
+/* #binaries-body {
+  padding-bottom: 0;
+} */
+
+.main-body {
+  margin: 0 auto;
+}
+
+.push {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+.splash {
+  /*height: 15.5em;*/
+  height: 20em;
+  padding-top: 9em;
+  margin-bottom: 2em;
+  background-size: cover;
+  color: #fff;
+  vertical-align: middle;
+  text-shadow: 5px 5px 5px #000;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.splash img.fadeIn {
+  position: absolute;
+  z-index: -1;
+  display: none;
+  width: 100%;
+  height: 20em;
+  top: 0;
+  left: 0;
+  clip: 0 100% 20em 0;
+}
+
+/*.classes td {*/
+/*text-align: center;*/
+/*}*/
+
+table.classes {
+  margin-top: 2em;
+}
+
+.splash-scorer {
+  height: 12em;
+  padding-top: 3em;
+  margin-bottom: 1em;
+  background-size: auto;
+  color: #fff;
+  vertical-align: middle;
+  text-shadow: 2px 2px 5px #000;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/card_suits.jpg");
+  background-position: center;
+}
+
+.splash-leiden {
+  height: 30em;
+  padding-top: 10em;
+  margin-bottom: 3em;
+  background-size: auto;
+  color: #fff;
+  vertical-align: middle;
+  text-shadow: 4px 4px 4px #000;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: url("/images/bubbles.png");
+  background-position: center;
+}
+
+.splash-nova {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30em;
+  background-size: auto;
+  color: #fff;
+  vertical-align: middle;
+  text-shadow: 4px 4px 4px #000;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: url("/images/David_Hardy_Classical_Nova.jpg");
+  background-position: center;
+}
+
+#leiden-instructions,
+#mesa-ss-instructions {
+  height: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+#leiden-instructions code,
+#mesa-ss-instructions code {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.make-clickable {
+  transform: rotate(0);
+}
+
+#burning-regimes td {
+  vertical-align: middle;
+}
+
+#leiden-instructions .btn-lg,
+#mesa-instructions .btn-lg {
+  min-width: 300px;
+}
+
+.splash-binaries {
+  height: 30em;
+  padding-top: 10em;
+  margin-bottom: 3em;
+  background-size: auto;
+  color: #fff;
+  vertical-align: middle;
+  text-shadow: 4px 4px 4px #000;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: url("/images/star_field.jpg");
+  background-position: center;
+}
+
+#binaries-instructions {
+  height: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+#binaries-instructions code {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#binaries-instructions .btn-lg {
+  min-width: 300px;
+}
+
+.highlight pre {
+  white-space: pre;
+  border-radius: inherit;
+  display: inherit;
+  background-color: black;
+  border: inherit;
+  color: inherit;
+  padding: 15px;
+}
+
+#super-side-nav {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+pre code {
+  white-space: pre;
+  overflow-x: auto;
+  display: inline-block;
+  min-width: 100%;
+}
+
+h2#overview {
+  margin-top: 0px;
+  position: relative;
+}
+
+#setup {
+  display: none;
+}
+
+#play-area {
+  display: none;
+}
+
+#tricks {
+  display: none;
+}
+
+#endscreen {
+  display: none;
+}
+
+.bonus-player {
+  display: none;
+}
+
+.teams {
+  display: none;
+}
+
+.game {
+  display: none;
+}
+
+#score td {
+  text-align: center;
+}
+
+.btn-player {
+  display: none;
+}
+
+.btn-bid {
+  display: none;
+}
+
+.btn-suit {
+  display: none;
+}
+
+.btn-decision4 {
+  display: none;
+}
+
+.btn-decision5 {
+  display: none;
+}
+
+.btn-decision-other {
+  display: none;
+}
+
+.btn-tricks {
+  display: none;
+}
+
+#btn-restart {
+  display: none;
+}
+
+#scorer-body {
+  min-height: 100%;
+  position: relative;
+}
+
+.full-height {
+  top: 12em;
+  bottom: 0%;
+}
+
+.help-footer {
+  position: absolute;
+  bottom: 0%;
+}
+
+.bckgrd-1 {
+  /*  position: absolute;*/
+  background-image: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2007-16-e-large_web.jpg");
+  /*  background-size: 100%;*/
+  /*  background-attachment: fixed;*/
+  /*  background-position: ;*/
+}
+
+.bckgrd-2 {
+  /*  position: absolute;*/
+  background-image: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2012-10-a-large_web.jpg");
+  /*  background-size: 100%;*/
+  /*  background-attachment: fixed;*/
+}
+
+.bckgrd-3 {
+  /*  position: absolute;*/
+  /*background-image: url('http://imgsrc.hubblesite.org/hu/db/images/hs-2009-25-i-large_web.jpg');*/
+  /* background-image: url('/images/hs-2009-25-i-large_web.jpg'); */
+  background-image: url("/images/webb-carina.jpeg");
+  background-position: center;
+  /*  background-size: 100%;*/
+  /*  background-attachment: fixed;*/
+}
+
+.bckgrd-4 {
+  /*  position: absolute;*/
+  background-image: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2006-01-q-large_web.jpg");
+  /*  background-size: 100%;*/
+  /*  background-attachment: fixed;*/
+}
+
+.bckgrd-5 {
+  /*  position: absolute;*/
+  background-image: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2009-02-a-large_web.jpg");
+  /*  background-size: 100%;*/
+  /*  background-attachment: fixed;*/
+}
+
+.bckgrd-physics {
+  /*  position: absolute;*/
+  /*background-image: url('http://imgsrc.hubblesite.org/hu/db/images/hs-2009-25-i-large_web.jpg');*/
+  background-image: url("/images/newtons_cradle.jpg");
+  /*  background-size: 100%;*/
+  background-position: center;
+  /*  background-attachment: fixed;*/
+  text-shadow: 3px 3px 3px #000;
+}
+
+#main-nav {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.33);
+  /*margin-top: 10px;*/
+  text-shadow: 1.5px 1.5px 1.5px #000;
+  width: 100%;
+}
+
+#main-nav li.nav-item a.nav-link {
+  font-size: 18px;
+}
+
+#main-nav .navbar-brand {
+  font-size: 24px;
+}
+
+#main-nav .navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+}
+
+.btn {
+  font-size: 20px;
+}
+
+.pre-x-scrollable {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.pre-y-scrollable {
+  overflow-y: auto;
+  word-wrap: normal;
+  white-space: pre;
+  height: 400px;
+}
+
+.initially-hidden {
+  display: none;
+}
+
+.border-thick {
+  border-width: 5px;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+/* make href-less links still appear like links */
+a:hover {
+  cursor: pointer;
+}
